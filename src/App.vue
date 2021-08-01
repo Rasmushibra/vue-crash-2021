@@ -26,11 +26,12 @@ export default {
 
   methods: {
     addTask(task) {
+      console.log(task);
       this.tasks = [...this.tasks, task]
     },
 
     deleteTask(id) {
-    this.tasks = this.tasks.filter((task) => task.id !== id)
+      this.tasks = this.tasks.filter((task) => task.id !== id)
     },
   
 

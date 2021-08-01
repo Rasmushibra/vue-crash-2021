@@ -1,12 +1,10 @@
 <template>
-<div>
-    <header>
-        <h1>{{ title }}</h1>
-        <Button text="Add Task" color="green"/>
-        
-    </header>
-</div>
-    
+    <div>
+        <header>
+            <h1>{{ title }}</h1>
+            <Button text="Add Task" color="green"/>
+        </header>
+    </div> 
 </template>
 
 <script>

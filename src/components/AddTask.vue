@@ -1,5 +1,5 @@
 <template>
-<form @submit="onSubmit" class="add-form">
+<form @submit="onSubmit" class="add-form" action="#">
     <div class="form-control">
       <label>Task</label>
       <input type="text" v-model="text" name="text" placeholder="Add Task" />
@@ -35,11 +35,12 @@ export default {
 
     methods: {
         onSubmit(e) {
-            e.prevenDefault()
+
+            console.log("Tessst");
 
             if(!this.text) {
-                alert('Please add a task')
-                return
+                alert('Please add a task');
+                return;
             }
 
             const newTask = {
