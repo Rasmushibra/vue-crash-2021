@@ -2,10 +2,8 @@
 <div>
     <header>
         <h1>{{ title }}</h1>
-        <Button />
-        <Button text="Add Task" color="green" />
-        <Button text="Update Task" color="blue" />
-        <Button text="Delete Task" color="red" />
+        <Button text="Add Task" color="green"/>
+        
     </header>
 </div>
     
